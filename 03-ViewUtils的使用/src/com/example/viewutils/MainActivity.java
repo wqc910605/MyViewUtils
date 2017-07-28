@@ -35,9 +35,12 @@ public class MainActivity extends Activity {
 		case R.id.btn2:
 			Toast.makeText(this, "btn2:"+tv2.getText(), Toast.LENGTH_SHORT).show();
 			break;
+			case R.id.btn2:
+			Toast.makeText(this, "btn2:"+tv2.getText(), Toast.LENGTH_SHORT).show();
+			break;
 		default:
 			break;
 		}
 	}
-
+	
 }
